@@ -1,0 +1,25 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Simple To Do List",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tej-n/toDoList.git"
+  },
+  "author": "Tej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tej-n/toDoList/issues"
+  },
+  "homepage": "https://github.com/tej-n/toDoList#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "node-restful": "^0.2.6"
+  }
+}
