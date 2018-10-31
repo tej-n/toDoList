@@ -2,13 +2,12 @@ var express = require('express');
 
 var app = express();
 
-app.get('/', function(req, res){
-    
+app.get('/', function (req, res) {
+
     const response = {
         '0': "working api"
     };
 
-    console.log(response);
     res.send(response);
 });
 
